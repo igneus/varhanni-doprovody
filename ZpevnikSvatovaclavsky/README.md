@@ -1,1 +1,1 @@
-LOULA, Otto a František SUCHÝ. Průvod varhan ke Zpěvníku Svatováclavskému. Praha: V. Kotrba, 1930. 
+LOULA, Otto - SUCHÝ, František. Průvod varhan ke Zpěvníku Svatováclavskému. Praha: V. Kotrba, 1930. 
