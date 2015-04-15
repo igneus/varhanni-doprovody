@@ -1,5 +1,7 @@
 \version "2.19.16"
 
+\include "stylesheet.ily"
+
 \paper {
   #(set-paper-size "a4" 'landscape)
 }
@@ -30,8 +32,8 @@ alt = \relative c' {
 tenor = \relative c' {
   gis2 a a4 gis a \breathe a bes a8 g a2 a r
   bes2 c e e4 \breathe c c d b2 c r
-  d1 c2 c4 \breathe c c b a2 gis2 r 
-  g!1 e4 g g \breathe g g2 a gis r 
+  d1 c2 c4 \breathe c c b a2 gis2 r
+  g!1 e4 g g \breathe g g2 a gis r
 }
 bas = \relative c {
   e2 d e f4 f e2 d a r
