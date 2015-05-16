@@ -24,6 +24,7 @@ tenor = \relative c' {
 bas = \relative c {
   \global
 }
+rythm = {}
 
 lyr = \lyricmode {
 }
@@ -34,11 +35,13 @@ lyr = \lyricmode {
     \new Staff <<
       \new Voice = "sopran" { \voiceOne \sopran }
       \new Voice { \voiceTwo \alt }
+      \new Voice { \voiceTwo \rythm }
     >>
     \new Staff <<
       \clef "bass"
       \new Voice { \voiceOne \tenor }
       \new Voice { \voiceTwo \bas }
+      \new Voice { \voiceTwo \rythm }
     >>
     \context Lyrics = "above" \lyricsto "sopran" \lyr
   >>
